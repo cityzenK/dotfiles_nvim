@@ -1,6 +1,6 @@
 require('telescope').setup{
     defaults = {
-        file_ignore_patterns = {"/node%_modules/.*", ".angular%/.*"}
+        file_ignore_patterns = {"./node%_modules/.*", ".angular%/.*","node_modules"}
     }
 }
 local builtin = require('telescope.builtin')
